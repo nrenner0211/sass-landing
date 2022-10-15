@@ -20,7 +20,7 @@ body {
 
 .showcase {
     @include set-background($primary-color);
-    height: 44rem;
+    height: 53rem;
 
     nav {
         display: flex;
@@ -37,6 +37,7 @@ body {
         }
 
         a {
+            font-size: 1.3rem;
             color: set-text-color($primary-color);
         }
 
@@ -50,17 +51,56 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 30px;
+        margin-top: 4rem;
 
         img {
-            width: 50%;
+            width: auto;
         }
 
         h1 {
-            font-size: 50px;
+            font-size: 3rem;
             line-height: 1.2;
         }
 
+
+    }
+}
+
+.footer {
+    @include set-background(lighten($secondary-color, 13%));
+    height: rem;
+
+    &-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 30%;
+            border-radius: 50%;
+        }
+
+        h1 {
+            font-size: 3rem;
+            line-height: 1.9;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            padding: 1rem;
+        }
+
+        a {
+            font-size: 1.5rem;
+            color: set-text-color($primary-color);
+        }
+
+        a:hover {
+            color: $primary-color;
+        }
     }
 }
 

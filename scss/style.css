@@ -17,7 +17,7 @@ body {
 .showcase {
   background-color: #4c4ced;
   color: #fff;
-  height: 44rem;
+  height: 53rem;
 }
 .showcase nav {
   display: flex;
@@ -32,6 +32,7 @@ body {
   padding: 2rem;
 }
 .showcase nav a {
+  font-size: 1.3rem;
   color: #fff;
 }
 .showcase nav a:hover {
@@ -42,14 +43,46 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 4rem;
 }
 .showcase-content img {
-  width: 50%;
+  width: auto;
 }
 .showcase-content h1 {
-  font-size: 50px;
+  font-size: 3rem;
   line-height: 1.2;
+}
+
+.footer {
+  background-color: #ffa642;
+  color: #fff;
+  height: rem;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-content img {
+  width: 30%;
+  border-radius: 50%;
+}
+.footer-content h1 {
+  font-size: 3rem;
+  line-height: 1.9;
+}
+.footer-content ul {
+  list-style-type: none;
+}
+.footer-content li {
+  padding: 1rem;
+}
+.footer-content a {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.footer-content a:hover {
+  color: #4c4ced;
 }
 
 .btn-secondary, .btn-primary {
