@@ -9,14 +9,13 @@ a {
 }
 
 body {
-  background-color: #f4f4f4;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
 }
 
 .showcase {
-  background-color: #4c4ced;
-  color: #fff;
+  background-color: #0E1C36;
+  color: #FFFFFF;
   height: 53rem;
 }
 .showcase nav {
@@ -33,10 +32,10 @@ body {
 }
 .showcase nav a {
   font-size: 1.3rem;
-  color: #fff;
+  color: #FFFFFF;
 }
 .showcase nav a:hover {
-  color: #ff8700;
+  color: #DE6B48;
 }
 .showcase-content {
   height: 100%;
@@ -54,8 +53,8 @@ body {
 }
 
 .footer {
-  background-color: #ffa642;
-  color: #fff;
+  background-color: #eeb19e;
+  color: #2D3142;
   height: rem;
 }
 .footer-content {
@@ -70,6 +69,7 @@ body {
 .footer-content h1 {
   font-size: 3rem;
   line-height: 1.9;
+  color: #FFFFFF;
 }
 .footer-content ul {
   list-style-type: none;
@@ -79,10 +79,10 @@ body {
 }
 .footer-content a {
   font-size: 1.5rem;
-  color: #fff;
+  color: #FFFFFF;
 }
 .footer-content a:hover {
-  color: #4c4ced;
+  color: #0E1C36;
 }
 
 .btn-secondary, .btn-primary {
@@ -96,13 +96,13 @@ body {
 }
 
 .btn-primary {
-  background-color: #7a7af2;
-  color: #333;
+  background-color: #19315f;
+  color: #FFFFFF;
 }
 
 .btn-secondary {
-  background-color: #ff8700;
-  color: #fff;
+  background-color: #DE6B48;
+  color: #FFFFFF;
 }
 
 .container {
