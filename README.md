@@ -4,11 +4,13 @@ A simple marketing themed landing page.
 
 ## Sources
 
-I went off of this course and added my own icons and styles.
+I learned from this course and added different elements, icons, and styles.
 
 [Sass Crash Course](https://www.youtube.com/watch?v=nu5mdN2JIwM)
 
-Icons sourced from [Flaticon](https://www.flaticon.com)
+All icons sourced from [Flaticon](https://www.flaticon.com)
+
+Woman Icon by [VictoRuler](https://www.flaticon.com/free-icons/woman)
 
 ## Contact
 

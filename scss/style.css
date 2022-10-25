@@ -14,9 +14,9 @@ body {
 }
 
 .showcase {
-  background-color: #0E1C36;
+  background-color: #2e5eff;
   color: #FFFFFF;
-  height: 53rem;
+  height: 50rem;
 }
 .showcase nav {
   display: flex;
@@ -35,7 +35,7 @@ body {
   color: #FFFFFF;
 }
 .showcase nav a:hover {
-  color: #DE6B48;
+  color: #ff501b;
 }
 .showcase-content {
   height: 100%;
@@ -53,7 +53,7 @@ body {
 }
 
 .footer {
-  background-color: #eeb19e;
+  background-color: #ff9e81;
   color: #2D3142;
   height: rem;
 }
@@ -63,8 +63,7 @@ body {
   justify-content: center;
 }
 .footer-content img {
-  width: 30%;
-  border-radius: 50%;
+  width: 20%;
 }
 .footer-content h1 {
   font-size: 3rem;
@@ -82,7 +81,7 @@ body {
   color: #FFFFFF;
 }
 .footer-content a:hover {
-  color: #0E1C36;
+  color: #2e5eff;
 }
 
 .btn-secondary, .btn-primary {
@@ -96,12 +95,12 @@ body {
 }
 
 .btn-primary {
-  background-color: #19315f;
+  background-color: #6185ff;
   color: #FFFFFF;
 }
 
 .btn-secondary {
-  background-color: #DE6B48;
+  background-color: #ff501b;
   color: #FFFFFF;
 }
 

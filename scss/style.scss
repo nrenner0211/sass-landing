@@ -19,7 +19,7 @@ body {
 
 .showcase {
     @include set-background($primary-color);
-    height: 53rem;
+    height: 50rem;
 
     nav {
         display: flex;
@@ -75,8 +75,7 @@ body {
         justify-content: center;
 
         img {
-            width: 30%;
-            border-radius: 50%;
+            width: 20%;
         }
 
         h1 {
